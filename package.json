@@ -1,4 +1,13 @@
 {
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Dennis Nguyen - Portfolio Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
   "dependencies": {
     "bootstrap": "^5.2.2"
   },
