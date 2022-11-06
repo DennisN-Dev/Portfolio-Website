@@ -1,0 +1,29 @@
+/* SVG Logo */
+
+a {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+span {
+  display: inline-block;
+}
+
+object {
+  position: relative;
+  z-index: -1;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #e7ecef;
+  padding: 0;
+}
+
+/* Font Awesome*/
+
+.fa {
+  padding: 0.5rem;
+}
