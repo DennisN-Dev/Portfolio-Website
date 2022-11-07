@@ -39,3 +39,9 @@ object {
 .portrait {
   border-radius: 2rem;
 }
+
+.red-outline {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #df3940;
+}
