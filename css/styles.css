@@ -20,10 +20,22 @@ object {
 .navbar {
   background-color: #e7ecef;
   padding: 0;
+  box-shadow: 0 4px 6px -6px black;
 }
 
 /* Font Awesome*/
 
 .fa {
   padding: 0.5rem;
+}
+
+/* Header */
+
+.container-header {
+  background: #212531;
+  background: linear-gradient(to right bottom, #e7ecef 50%, #212531 50%);
+}
+
+.portrait {
+  border-radius: 2rem;
 }
