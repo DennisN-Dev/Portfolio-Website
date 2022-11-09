@@ -15,12 +15,23 @@ object {
   z-index: -1;
 }
 
+.logo:hover {
+  transition: background-color 0.3s ease-out;
+  background-color: #212531;
+  border-radius: 5px;
+}
+
 /* Navbar */
 
 .navbar {
   background-color: #e7ecef;
   padding: 0;
   box-shadow: 0 4px 6px -6px black;
+}
+
+.nav-link:hover {
+  color: #07395c;
+  box-shadow: 5px 5px 6px -6px #df3940;
 }
 
 /* Font Awesome*/
@@ -44,4 +55,17 @@ object {
   color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #df3940;
+}
+
+/* About */
+
+.container-about {
+  background-color: #247ba0;
+  color: #e7ecef;
+  height: 300px;
+  margin: auto;
+}
+
+.about-me-photo {
+  border-radius: 50%;
 }
