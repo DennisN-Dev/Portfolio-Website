@@ -1,3 +1,7 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 /* SVG Logo */
 
 a {
@@ -40,6 +44,7 @@ span {
 .container-header {
   background: #212531;
   background: linear-gradient(to right bottom, #e7ecef 50%, #212531 50%);
+  font-family: "Sono", sans-serif;
 }
 
 .portrait {
@@ -95,4 +100,5 @@ span {
 
 .container-skills {
   background-color: #dbe3e9;
+  font-family: "Sono", sans-serif;
 }
