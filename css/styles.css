@@ -10,11 +10,6 @@ span {
   display: inline-block;
 }
 
-object {
-  position: relative;
-  z-index: -1;
-}
-
 .logo:hover {
   transition: background-color 0.3s ease-out;
   background-color: #212531;
@@ -60,12 +55,44 @@ object {
 /* About */
 
 .container-about {
-  background-color: #247ba0;
+  background-color: #07395c;
   color: #e7ecef;
-  height: 300px;
+  max-width: 100%;
+  height: auto;
   margin: auto;
 }
 
 .about-me-photo {
   border-radius: 50%;
+}
+
+.d-block w-100 {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.carousel-item > img {
+  height: 400px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0.5rem;
+}
+
+.about-me-border {
+  border-width: 2px;
+  background-color: #212531;
+  border-style: solid;
+  border-color: #bdd4e7;
+}
+
+/* Skills */
+
+.container-skills {
+  background-color: #dbe3e9;
 }
