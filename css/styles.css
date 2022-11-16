@@ -102,3 +102,48 @@ span {
   background-color: #dbe3e9;
   font-family: "Sono", sans-serif;
 }
+
+/* Projects */
+
+.container-projects {
+  background-color: #272932;
+  color: #e7ecef;
+}
+
+.proj {
+  height: 250px;
+  color: #272932;
+}
+
+.proj-1 {
+  background-color: #f4e9e2;
+}
+
+.proj-video {
+  float: left;
+}
+
+.proj-2 {
+  background-color: #ffd4cb;
+}
+
+.proj-3 {
+  background-color: #fcf3f3;
+}
+
+.proj-4 {
+  background-color: #cef0ab;
+}
+
+.proj-5 {
+  background-color: #c1d3ff;
+}
+
+.proj-6 {
+  background-color: #ffe7e9;
+}
+
+.card {
+  float: right;
+  overflow: hidden;
+}
