@@ -60,13 +60,14 @@
 
     <div class="container-fluid container-header">
         <div class="row">
-            <div class="col-12 col-md-6 offset-1 mt-5">
-                <h1>HELLO, I'M <span class="red-outline">DENNIS</span>
+            <div class="col-9 col-md-6 offset-1 mt-5">
+                <h1 class="text-sm-start">HELLO, I'M <span class="red-outline">DENNIS</span>
                     <br>
                     FULL-STACK DEVELOPER
                     <br>
-                    <button class="btn btn-danger mt-3">Portfolio</button>
                 </h1>
+                <button class="btn btn-danger mt-3">Portfolio</button>
+
             </div>
             <div class="col-12 col-md-4 offset-1 mb-4">
                 <img class="portrait mt-4 img-fluid" src="media/images/portrait.JPG" alt="Self Portrait Photo"
@@ -197,7 +198,7 @@
 
     <div class="container-fluid container-projects">
         <div class="row">
-            <div class="col d-flex justify-content-center mt-3 mb-3">
+            <div class="col d-flex justify-content-center mt-3 mb-2">
                 <h2>Projects</h2>
             </div>
         </div>
@@ -283,6 +284,46 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="container-fluid container-form">
+        <div class="row">
+            <div class="col d-flex justify-content-center mt-3 mb-2">
+                <h2>Contact Me</h2>
+            </div>
+        </div>
+        <form>
+            <div class="row justify-content-md-center">
+                <div class="col-6 col-md-3 mb-2">
+                    <label for="fname">First Name:</label>
+                    <input id="fname" type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col-6 col-md-3">
+                    <label for="lname">Last Name:</label>
+                    <input id="lname" type="text" class="form-control" placeholder="Last name">
+                </div>
+            </div>
+            <div class="row justify-content-md-center mt-4">
+                <div class="col-12 col-md-6">
+                    <label for="email">Email address:</label>
+                    <input id="email" type="email" class="form-control" placeholder="example@domain.com">
+                </div>
+            </div>
+
+            <div class="row justify-content-md-center mt-3">
+                <div class="col-8 col-md-2 mt-4">
+                    <label for="company">Company:</label>
+                    <input id="company" type="text" class="form-control" placeholder="Company Name">
+                </div>
+                <div class="col-7 mt-4 col-md-3">
+                    <label>Job Posting <i>optional</i></label>
+                    <input class="form-control" type="file" title="test" id="formFile">
+                </div>
+                <div class="col-2 mt-5 col-md-1">
+                    <button type="submit" class="btn btn-danger ms-3">Submit</button>
+                </div>
+            </div>
+        </form>
     </div>
 
 
