@@ -37,20 +37,23 @@
             <div class="collapse navbar-collapse" id="portfolioNavbar">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa fa-home fa-lg" aria-hidden="true">&nbsp; Home</i></a>
+                        <a class="nav-link" href="#container-header"><i class="fa fa-home fa-lg"
+                                aria-hidden="true">&nbsp; Home</i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa fa-info-circle fa-lg" aria-hidden="true">&nbsp;
+                        <a class="nav-link" href="#container-about"><i class="fa fa-info-circle fa-lg"
+                                aria-hidden="true">&nbsp;
                                 About</i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="#container-projects">
                             <i class="fa fa-folder-open fa-lg" aria-hidden="true">&nbsp; Projects</i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa fa-address-card fa-lg" aria-hidden="true">&nbsp;
+                        <a class="nav-link" href="#container-form"><i class="fa fa-address-card fa-lg"
+                                aria-hidden="true">&nbsp;
                                 Contact</i></a>
                     </li>
                 </ul>
@@ -58,7 +61,7 @@
         </div>
     </nav>
 
-    <div class="container-fluid container-header">
+    <div id="container-header" class="container-fluid">
         <div class="row">
             <div class="col-9 col-md-6 offset-1 mt-5">
                 <h1 class="text-sm-start">HELLO, I'M <span class="red-outline">DENNIS</span>
@@ -76,23 +79,24 @@
         </div>
     </div>
 
-    <div class="container-fluid container-about">
+    <div id="container-about" class="container-fluid reveal fade-bottom">
         <div class="row">
             <div class="col d-flex justify-content-center mt-4">
                 <h2>About Me</h2>
             </div>
         </div>
         <div class="row">
-            <div class="col d-flex justify-content-center mt-1">
+            <div class="col d-flex justify-content-center mt- mb-3">
                 <img class="about-me-photo" src="media/images/about-me_portrait.jpg" alt="About Section Photo"
                     height="200" width="200">
             </div>
         </div>
-        <div class="row">
+        <div class="row mb-3">
             <div class="col-10 offset-1 d-flex justify-content-center">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate quos debitis itaque veniam ipsum
-                    mollitia totam velit sit dolor pariatur, nulla ullam quo, illum deserunt aut fuga ex, deleniti
-                    repudiandae.</p>
+                <p class="h5">I'm aspiring developer interested in the latest technologies in the realm of web
+                    development & UI/UX
+                    design.
+                </p>
             </div>
         </div>
         <div class="row">
@@ -101,15 +105,15 @@
                     <blockquote class="blockquote">
                         <p>"Technology like art is a soaring exercise of the human imagination."</p>
                     </blockquote>
-                    <figcaption class="blockquote-footer">
+                    <figcaption class="blockquote-footer text-white">
                         Daniel Bell <cite title="Source Title">The Winding Passage</cite>
                     </figcaption>
                 </figure>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6 mx-auto mt-3 mb-3">
-                <div id="carousel-about-me" class="carousel slide about-me-border" data-ride="carousel">
+            <div class="col-md-6 mx-auto mt-2 pb-4">
+                <div id="carousel-about-me" class="carousel slide about-me-border" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carousel-about-me" data-bs-slide-to="0" class="active"
                             aria-current="true" aria-label="Slide 1"></button>
@@ -156,7 +160,7 @@
         </div>
     </div>
 
-    <div class="container-fluid container-skills">
+    <div id="container-skills" class="container-fluid reveal fade-bottom">
         <div class="row">
             <div class="col d-flex justify-content-center mt-4">
                 <h2>My Skills</h2>
@@ -179,7 +183,7 @@
             </div>
         </div>
 
-        <div class="row mt-4">
+        <div class="row mt-4 pb-4">
             <div class="col-4 col-md-4 text-center">
                 <p>NodeJS</p>
                 <object data="/media/logos/logo-nodejs.svg" height="100" width="100"></object>
@@ -196,9 +200,9 @@
 
     </div>
 
-    <div class="container-fluid container-projects">
+    <div id="container-projects" class="container-fluid reveal fade-left">
         <div class="row">
-            <div class="col d-flex justify-content-center mt-3 mb-2">
+            <div class="col d-flex justify-content-center mt-3 mb-3">
                 <h2>Projects</h2>
             </div>
         </div>
@@ -286,9 +290,9 @@
         </div>
     </div>
 
-    <div class="container-fluid container-form">
+    <div id="container-form" class="container-fluid reveal fade-right">
         <div class="row">
-            <div class="col d-flex justify-content-center mt-3 mb-2">
+            <div class="col d-flex justify-content-center mt-4 mb-2">
                 <h2>Contact Me</h2>
             </div>
         </div>
@@ -310,7 +314,7 @@
                 </div>
             </div>
 
-            <div class="row justify-content-md-center mt-3">
+            <div class="row justify-content-md-center mt-4 pb-4">
                 <div class="col-8 col-md-2 mt-4">
                     <label for="company">Company:</label>
                     <input id="company" type="text" class="form-control" placeholder="Company Name">
@@ -326,6 +330,35 @@
         </form>
     </div>
 
+    <div class="container-fluid container-footer">
+        <div class="row">
+            <div class="col d-flex justify-content-center mt-3">
+                <h4>Socials</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <a class="btn btn-social-icon btn-social" href="http://instagram.com/" target="_blank"><i
+                        class="fa fa-instagram fa-2x"></i>
+                </a>
+                <a class="btn btn-social-icon btn-social" href="http://linkedin.com/" target="_blank"><i
+                        class="fa fa-linkedin-square fa-2x"></i>
+                </a>
+                <a class="btn btn-social-icon btn-social" href="http://twitter.com/" target="_blank"><i
+                        class="fa fa-twitter-square fa-2x"></i>
+                </a>
+                <a class="btn btn-social-icon btn-social" href="http://twitter.com/" target="_blank"><i
+                        class="fa fa-github fa-2x"></i>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center mt-3">
+                <p>&copy; 2022 Dennis Nguyen</p>
+            </div>
+        </div>
+    </div>
+
 
 
 
@@ -335,6 +368,7 @@
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="/scripts/script.js"></script>
 </body>
 
 </html>

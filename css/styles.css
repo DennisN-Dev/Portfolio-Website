@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #e7ecef;
 }
 
 html,
@@ -8,6 +9,60 @@ body {
 }
 body {
   position: relative;
+}
+
+/* Animations */
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.active.fade-bottom {
+  animation: fade-bottom 1s ease-in;
+}
+.active.fade-left {
+  animation: fade-left 1s ease-in;
+}
+.active.fade-right {
+  animation: fade-right 1s ease-in;
+}
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 /* SVG Logo */
@@ -49,7 +104,7 @@ span {
 
 /* Header */
 
-.container-header {
+#container-header {
   background: #212531;
   background: linear-gradient(to right bottom, #e7ecef 50%, #212531 50%);
   font-family: "Sono", sans-serif;
@@ -67,7 +122,7 @@ span {
 
 /* About */
 
-.container-about {
+#container-about {
   background-color: #07395c;
   color: #e7ecef;
   max-width: 100%;
@@ -106,14 +161,14 @@ span {
 
 /* Skills */
 
-.container-skills {
+#container-skills {
   background-color: #dbe3e9;
   font-family: "Sono", sans-serif;
 }
 
 /* Projects */
 
-.container-projects {
+#container-projects {
   background-color: #272932;
   color: #e7ecef;
 }
@@ -157,7 +212,18 @@ span {
 }
 
 /* Contact/Form */
-.container-form {
+#container-form {
   background-color: #003049;
+  color: #e7ecef;
+}
+
+/* Footer */
+.container-footer {
+  background-color: #272932;
+  color: #e7ecef;
+}
+
+.btn-social {
+  background-color: #272932;
   color: #e7ecef;
 }
